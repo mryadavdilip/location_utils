@@ -7,7 +7,7 @@ import 'package:location_utils/services/base.dart';
 /// Geocoding and reverse geocoding through built-lin local platform services.
 class LocalGeocoding implements Geocoding {
   static const MethodChannel _channel =
-      MethodChannel('github.com/aloisdeniel/geocoder');
+      MethodChannel('github.com/mryadavdilip/location_utils');
 
   @override
   Future<List<Address>> findAddressesFromCoordinates(
